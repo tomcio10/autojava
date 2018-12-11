@@ -1,17 +1,15 @@
-package kalkulator;
+package calculator;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class KalkulatorAppTest {
+class CalculatorAppTest {
 
     @Test
     public void addTest() {
-        KalkulatorApp kalkulatorek = new KalkulatorApp();
+        CalculatorApp calc = new CalculatorApp();
 
-        int suma = kalkulatorek.add(1,2);
+        int suma = calc.add(1,2);
 
         Assertions.assertEquals(3,suma, "Sprawdź, że dodawanie liczb całkowitych działa");
 
@@ -22,10 +20,10 @@ class KalkulatorAppTest {
    public void addTwoPositiveDoubles(){
 
     //arrange
-    KalkulatorApp kalkulatorek = new KalkulatorApp();
+    CalculatorApp calc = new CalculatorApp();
 
      //act
-       double suma = kalkulatorek.add(1.2,2.4);
+       double suma = calc.add(1.2,2.4);
 
       //assert
        Assertions.assertEquals(3.6, suma, 0.00000001, "Sprawdź, że dodawanie liczb zmiennoprzecinkowych działą");
@@ -35,10 +33,10 @@ class KalkulatorAppTest {
     @Test
     public void Divide(){
     //arrange
-     KalkulatorApp kalkulatorek = new KalkulatorApp();
+     CalculatorApp calc = new CalculatorApp();
 
     //act
-      double division = kalkulatorek.devide(4, 2);
+      double division = calc.devide(4, 2);
 
     //assert
        Assertions.assertEquals(2, division, 0.00000001, "Sprawdź, że dzielenie liczb działa");
