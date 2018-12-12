@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95ed09e4-0c43-4db2-a1ce-666e7b817380" name="Default Changelist" comment="Rename calculator class">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="95ed09e4-0c43-4db2-a1ce-666e7b817380" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kalkulator/KalkulatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/calculator/CalculatorApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/kalkulator/KalkulatorAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/calculator/CalculatorAppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/kalkulator/KalkulatorApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/kalkulator/KalkulatorAppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,13 +13,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="autojava" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorAppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="119">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,7 +30,46 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1343">
+              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#canFindCodeSprintersOnGoogle2#0;class#SeleniumTests#0" />
+                <element signature="method#weryfiAuthorOfBlogNoteAboutTransformations#0;class#SeleniumTests#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Predicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -44,7 +79,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/calculator/KalkulatorAppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/calculator/CalculatorAppTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -67,9 +111,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -125,15 +171,37 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="calculator" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autojava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="autojava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="autojava" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="selenium" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544538324055" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544612195669" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -147,64 +215,80 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="CalculatorAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SeleniumTests.weryfiAuthorOfBlogNoteAboutTransformations">
+    <configuration name="SeleniumTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calculator.*" />
+          <option name="PATTERN" value="selenium.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="calculator" />
-      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorAppTest" />
+      <option name="PACKAGE_NAME" value="selenium.basic" />
+      <option name="MAIN_CLASS_NAME" value="selenium.basic.SeleniumTests" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorAppTest.Divide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calculator.*" />
+          <option name="PATTERN" value="selenium.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="calculator" />
-      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorAppTest" />
-      <option name="METHOD_NAME" value="Divide" />
+      <option name="PACKAGE_NAME" value="selenium.basic" />
+      <option name="MAIN_CLASS_NAME" value="selenium.basic.SeleniumTests" />
+      <option name="METHOD_NAME" value="canFindCodeSprintersOnGoogle" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorAppTest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calculator.*" />
+          <option name="PATTERN" value="selenium.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="calculator" />
-      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorAppTest" />
-      <option name="METHOD_NAME" value="addTest" />
+      <option name="PACKAGE_NAME" value="selenium.basic" />
+      <option name="MAIN_CLASS_NAME" value="selenium.basic.SeleniumTests" />
+      <option name="METHOD_NAME" value="canFindCodeSprintersOnGoogle2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorAppTest.addTwoPositiveDoubles" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformationsStepByStep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="autojava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="calculator.*" />
+          <option name="PATTERN" value="selenium.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="calculator" />
-      <option name="MAIN_CLASS_NAME" value="calculator.CalculatorAppTest" />
-      <option name="METHOD_NAME" value="addTwoPositiveDoubles" />
+      <option name="PACKAGE_NAME" value="selenium.basic" />
+      <option name="MAIN_CLASS_NAME" value="selenium.basic.SeleniumTests" />
+      <option name="METHOD_NAME" value="verifyAuthorOfBlogNoteAboutTransformationsStepByStep" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTests.weryfiAuthorOfBlogNoteAboutTransformations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="autojava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="selenium.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="selenium.basic" />
+      <option name="MAIN_CLASS_NAME" value="selenium.basic.SeleniumTests" />
+      <option name="METHOD_NAME" value="weryfiAuthorOfBlogNoteAboutTransformations" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -212,10 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorAppTest.Divide" />
-        <item itemvalue="JUnit.CalculatorAppTest.addTwoPositiveDoubles" />
-        <item itemvalue="JUnit.CalculatorAppTest" />
-        <item itemvalue="JUnit.CalculatorAppTest.addTest" />
+        <item itemvalue="JUnit.SeleniumTests.weryfiAuthorOfBlogNoteAboutTransformations" />
+        <item itemvalue="JUnit.SeleniumTests.canFindCodeSprintersOnGoogle2" />
+        <item itemvalue="JUnit.SeleniumTests.verifyAuthorOfBlogNoteAboutTransformationsStepByStep" />
+        <item itemvalue="JUnit.SeleniumTests" />
+        <item itemvalue="JUnit.SeleniumTests.canFindCodeSprintersOnGoogle" />
       </list>
     </recent_temporary>
   </component>
@@ -230,86 +315,178 @@
       <option name="presentableId" value="Default" />
       <updated>1544537520461</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rename calculator class">
+      <created>1544538560551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544538560551</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="KalkulatorAppTest - 2018.12.11 at 15h 15m 27s.xml">
-      <configuration name="KalkulatorAppTest" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformationsStepByStep - 2018.12.12 at 11h 25m 28s.xml">
+      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformationsStepByStep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KalkulatorAppTest_addTwoPositiveDoubles - 2018.12.11 at 15h 18m 00s.xml">
-      <configuration name="KalkulatorAppTest.addTwoPositiveDoubles" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformationsStepByStep - 2018.12.12 at 11h 25m 46s.xml">
+      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformationsStepByStep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KalkulatorAppTest_addTest - 2018.12.11 at 15h 18m 06s.xml">
-      <configuration name="KalkulatorAppTest.addTest" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_canFindCodeSprintersOnGoogle2 - 2018.12.12 at 11h 32m 49s.xml">
+      <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KalkulatorAppTest_Divide - 2018.12.11 at 15h 18m 13s.xml">
-      <configuration name="KalkulatorAppTest.Divide" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_verifyAuthorOfBlogNoteAboutTransformationsStepByStep - 2018.12.12 at 11h 33m 55s.xml">
+      <configuration name="SeleniumTests.verifyAuthorOfBlogNoteAboutTransformationsStepByStep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorAppTest - 2018.12.11 at 15h 22m 02s.xml">
-      <configuration name="CalculatorAppTest" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_canFindCodeSprintersOnGoogle2 - 2018.12.12 at 11h 35m 41s.xml">
+      <configuration name="SeleniumTests.canFindCodeSprintersOnGoogle2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorAppTest_addTwoPositiveDoubles - 2018.12.11 at 15h 22m 16s.xml">
-      <configuration name="CalculatorAppTest.addTwoPositiveDoubles" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_weryfiAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 42m 03s.xml">
+      <configuration name="SeleniumTests.weryfiAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorAppTest_addTwoPositiveDoubles - 2018.12.11 at 15h 23m 51s.xml">
-      <configuration name="CalculatorAppTest.addTwoPositiveDoubles" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_weryfiAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 52m 52s.xml">
+      <configuration name="SeleniumTests.weryfiAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorAppTest_Divide - 2018.12.11 at 15h 23m 55s.xml">
-      <configuration name="CalculatorAppTest.Divide" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_weryfiAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 54m 13s.xml">
+      <configuration name="SeleniumTests.weryfiAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorAppTest_addTwoPositiveDoubles - 2018.12.11 at 15h 24m 49s.xml">
-      <configuration name="CalculatorAppTest.addTwoPositiveDoubles" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_weryfiAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 55m 05s.xml">
+      <configuration name="SeleniumTests.weryfiAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorAppTest_Divide - 2018.12.11 at 15h 24m 54s.xml">
-      <configuration name="CalculatorAppTest.Divide" configurationId="JUnit" />
+    <history-entry file="SeleniumTests_weryfiAuthorOfBlogNoteAboutTransformations - 2018.12.12 at 11h 55m 28s.xml">
+      <configuration name="SeleniumTests.weryfiAuthorOfBlogNoteAboutTransformations" configurationId="JUnit" />
     </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32900432" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.25799572" />
+      <window_info id="Structure" order="1" sideWeight="0.5016129" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5016129" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32900432" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" weight="0.32995737" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.32900432" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4989339" weight="0.32900432" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5026652" side_tool="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.4989339" weight="0.32900432" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49733475" weight="0.32900432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32995737" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rename calculator class" />
     <option name="LAST_COMMIT_MESSAGE" value="Rename calculator class" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java</url>
+          <line>98</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java</url>
+          <line>67</line>
+          <properties class="selenium.basic.SeleniumTests" method="weryfiAuthorOfBlogNoteAboutTransformations">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java</url>
+          <line>33</line>
+          <properties class="selenium.basic.SeleniumTests" method="canFindCodeSprintersOnGoogle">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/calculator/CalculatorApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/selenium/basic.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/calculator/CalculatorAppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="119">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/selenium/basic/SeleniumTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#canFindCodeSprintersOnGoogle2#0;class#SeleniumTests#0" />
+            <element signature="method#weryfiAuthorOfBlogNoteAboutTransformations#0;class#SeleniumTests#0" />
           </folding>
         </state>
       </provider>
